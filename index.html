@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- import font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- import main style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- import main style responsive -->
+    <link rel="stylesheet" href="assets/css/style_responsive.css">
+    <title>SlideShow</title>
+</head>
+<body>
+  
+
+
+  <section class="slide">
+    <div class="slide-item  show">
+      <div class="number">
+        1/3
+      </div>
+      <img src="assets/img/1.jpg" alt="">
+    </div>
+    <div class="slide-item  ">
+      <div class="number">
+        2/3
+      </div>
+      <img src="assets/img/2.jpg" alt="">
+    </div>
+    <div class="slide-item">
+      <div class="number">
+        3/3
+      </div>
+      <img src="assets/img/3.jpg" alt="">
+    </div>
+    <div class="next" id="next">
+      <i class="fas fas fa-arrow-alt-circle-right"></i>
+    </div>
+    <div class="prev" id="prev">
+      <i class="fas fas fa-arrow-alt-circle-left"></i>
+    </div>
+    <div class="slide-dots">
+      <span class="dot active" onclick="showSlide(0)"></span>
+      <span class="dot" onclick="showSlide(1)"></span> 
+      <span class="dot" onclick="showSlide(2)"></span>
+    </div>
+  </section>
+
+    
+    
+
+
+
+    <!-- import bootstrap js  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

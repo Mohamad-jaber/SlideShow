@@ -1,0 +1,35 @@
+/* xs screen */
+
+@media screen  and (max-width:576px){
+    h1{font-size: 20px;}
+}
+
+/* small screen */
+
+@media screen  and (min-width:577px) and (max-width:768px){
+
+}
+
+/* medium scree */
+
+@media screen  and (min-width:769px) and (max-width:992px){
+
+}
+
+/* large */
+
+@media screen  and (min-width:993) and (max-width:1200){
+
+}
+
+/* x large */
+
+@media screen  and (min-width:1201) and (max-width:1400){
+    
+}
+
+
+/* xx large */
+@media screen  and (min-width:1401px){
+    
+}
